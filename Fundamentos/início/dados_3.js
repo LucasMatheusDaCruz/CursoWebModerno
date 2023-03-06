@@ -15,3 +15,4 @@ let isRaining = false;
 console.log(typeof isRaining);
 
 console.log(typeof "Teste");
+console.log(typeof 'Test');
