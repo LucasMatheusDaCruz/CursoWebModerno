@@ -18,10 +18,10 @@ console.log(n, a)
 
 console.log(person);
 
-const {surName, humor = true} = person;
+const { surName, humor = true } = person;
 
 console.log(surName, humor);
 
-const { adress: {street, number, postalCode} } = person;
+const { adress: { street, number, postalCode } } = person;
 
 console.log(street, number, postalCode);
