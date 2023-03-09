@@ -1,0 +1,3 @@
+ALTER TABLE empresas MODIFY cnpj VARCHAR(14) NOT NULL;
+ALTER TABLE empresas ADD INDEX (cnpj);
+ALTER TABLE empresas MODIFY cnpj VARCHAR(20);
